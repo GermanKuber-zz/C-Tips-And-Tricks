@@ -52,6 +52,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="4 - CallerInfo Attributes\DebuggerBrowseableTest.cs" />
+    <Compile Include="3 - Null Coalescing Operator\DebuggerBrowseableTest.cs" />
     <Compile Include="2 - Debugger Browseable State\DebuggerBrowseableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1 - Debugger Display Values\DebuggerDisplayValuesTest.cs" />

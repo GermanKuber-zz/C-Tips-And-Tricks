@@ -9,7 +9,7 @@ namespace Tips.Examples
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         public int Age { get; set; }
         public string Information { get; set; }
-        [DebuggerBrowsable(DebuggerBrowsableState.Collapsed)]
+        [DebuggerBrowsable(DebuggerBrowsableState.RootHidden)]
         public List<string> Hobbies { get; set; }
     }
 }

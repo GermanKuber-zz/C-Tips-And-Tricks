@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace Tips.Examples
+﻿namespace Tips.Examples
 {
     public class PersonWitOuthDisplayValues
     {
