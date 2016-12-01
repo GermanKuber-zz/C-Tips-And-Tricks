@@ -17,7 +17,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -48,10 +48,16 @@
     <Compile Include="2 - Debugger Browseable State\Entities\PersonWithDebuggerBrowseable.cs" />
     <Compile Include="2 - Debugger Browseable State\Entities\PersonWithOutDebuggerBrowseable.cs" />
     <Compile Include="3 - Null Coalescing Operator\DebuggerBrowseableTest.cs" />
+    <Compile Include="6 - String Null Empty\StringNullEmptyTest.cs" />
+    <Compile Include="5 - ChangeType\ChangeTypeTest.cs" />
     <Compile Include="4 - CallerInfo Attributes\DebuggerBrowseableTest.cs" />
     <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributeDemo.cs" />
     <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributesClass.cs" />
+    <Compile Include="7 - Compilation Conditional\CompilationConditionalTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
