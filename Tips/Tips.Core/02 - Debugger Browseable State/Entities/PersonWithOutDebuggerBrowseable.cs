@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Tips.Core.Entities
+namespace Tips.Entities
 {
 
     public class PersonWithOutDebuggerBrowseable

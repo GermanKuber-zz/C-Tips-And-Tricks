@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Tips.Core.Entities
+namespace Tips.Entities
 {
     public class CallerInfoAttributesClass : INotifyPropertyChanged
     {

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class LinqEnumListTest

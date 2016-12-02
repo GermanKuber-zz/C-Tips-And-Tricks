@@ -1,8 +1,7 @@
-﻿using System;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class ThreePartNumericFormatTest

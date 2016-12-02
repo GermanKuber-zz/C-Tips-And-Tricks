@@ -1,9 +1,6 @@
-﻿using System;
-using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tips.Core.Entities;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class StringNullEmptyTest

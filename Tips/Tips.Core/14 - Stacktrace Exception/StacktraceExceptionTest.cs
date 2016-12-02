@@ -1,10 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tips.Core.Entities;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Tips.Entities;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class StacktraceExceptionTest

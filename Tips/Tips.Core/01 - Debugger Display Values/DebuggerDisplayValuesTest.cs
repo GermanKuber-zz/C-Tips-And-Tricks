@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tips.Core.Entities;
+using Tips.Entities;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class DebuggerDisplayValuesTest

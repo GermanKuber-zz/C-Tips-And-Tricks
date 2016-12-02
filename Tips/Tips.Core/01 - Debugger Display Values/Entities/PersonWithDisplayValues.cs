@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Tips.Core.Entities
+namespace Tips.Entities
 {
     [DebuggerDisplay("Esta persona se llama {Name} y su edad es {Age}. Alguna información extra : {Information}")]
     public class PersonWithDisplayValues

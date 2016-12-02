@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class ObjectReferenceComparationTest

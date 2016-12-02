@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tips.Core.Entities;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class ChangeTypeTest

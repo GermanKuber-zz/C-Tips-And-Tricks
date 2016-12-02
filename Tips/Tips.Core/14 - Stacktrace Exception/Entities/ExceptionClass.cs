@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Tips.Core.Entities
+namespace Tips.Entities
 {
     class ExceptionClass
     {

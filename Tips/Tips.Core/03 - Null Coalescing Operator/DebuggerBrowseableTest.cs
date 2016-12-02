@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Tips.Core
+namespace Tips
 {
     [TestClass]
     public class NullCoalescingOperatorTest

@@ -4,27 +4,24 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE63714E-145A-4226-A0B3-0D66608AFA74}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{F52189A7-CD21-41B6-A5E3-17C0DD45E043}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tips</RootNamespace>
     <AssemblyName>Tips</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,19 +41,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\1 - Debugger Display Values\PersonWithDisplayValues.cs" />
-    <Compile Include="Examples\1 - Debugger Display Values\PersonWitOuthDisplayValues.cs" />
-    <Compile Include="Examples\2 - Debugger Browseable State\PersonWithOutDebuggerBrowseable.cs" />
-    <Compile Include="Examples\2 - Debugger Browseable State\PersonWithDebuggerBrowseable.cs" />
-    <Compile Include="Examples\4 - CallerInfo Attributes\CallerInfoAttributeDemo.cs" />
-    <Compile Include="Examples\4 - CallerInfo Attributes\CallerInfoAttributesClass.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="01 - Debugger Display Values\DebuggerDisplayValuesTest.cs" />
+    <Compile Include="01 - Debugger Display Values\Entities\PersonWithDisplayValues.cs" />
+    <Compile Include="01 - Debugger Display Values\Entities\PersonWitOuthDisplayValues.cs" />
+    <Compile Include="02 - Debugger Browseable State\DebuggerBrowseableTest.cs" />
+    <Compile Include="02 - Debugger Browseable State\Entities\PersonWithDebuggerBrowseable.cs" />
+    <Compile Include="02 - Debugger Browseable State\Entities\PersonWithOutDebuggerBrowseable.cs" />
+    <Compile Include="03 - Null Coalescing Operator\DebuggerBrowseableTest.cs" />
+    <Compile Include="06 - String Null Empty\StringNullEmptyTest.cs" />
+    <Compile Include="05 - ChangeType\ChangeTypeTest.cs" />
+    <Compile Include="04 - CallerInfo Attributes\DebuggerBrowseableTest.cs" />
+    <Compile Include="04 - CallerInfo Attributes\Entities\CallerInfoAttributeDemo.cs" />
+    <Compile Include="04 - CallerInfo Attributes\Entities\CallerInfoAttributesClass.cs" />
+    <Compile Include="07 - Compilation Conditional\CompilationConditionalTest.cs" />
+    <Compile Include="08 - Tuplas\TuplesTest.cs" />
+    <Compile Include="09 - Object Reference Comparation\ObjectReferenceComparation.cs" />
+    <Compile Include="11 - Three Part Numeric Format\ThreePartNumericFormatTest.cs" />
+    <Compile Include="10 - Flags Enum\FlashEnumTest.cs" />
+    <Compile Include="13 - Linq Enum List\LinqEnumListTest.cs" />
+    <Compile Include="12 - Obsolete Attribute\ObsoleteAttributeTest.cs" />
+    <Compile Include="14 - Stacktrace Exception\Entities\ExceptionClass.cs" />
+    <Compile Include="14 - Stacktrace Exception\StacktraceExceptionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

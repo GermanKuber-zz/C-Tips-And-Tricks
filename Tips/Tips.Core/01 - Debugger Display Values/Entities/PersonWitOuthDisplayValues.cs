@@ -1,4 +1,4 @@
-﻿namespace Tips.Core.Entities
+﻿namespace Tips.Entities
 {
     public class PersonWitOuthDisplayValues
     {

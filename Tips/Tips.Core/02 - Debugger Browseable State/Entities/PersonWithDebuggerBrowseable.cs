@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Tips.Core.Entities
+namespace Tips.Entities
 {
     public class PersonWithDebuggerBrowseable
     {
