@@ -60,6 +60,8 @@
     <Compile Include="10 - Flags Enum\FlashEnumTest.cs" />
     <Compile Include="13 - Linq Enum List\LinqEnumListTest.cs" />
     <Compile Include="12 - Obsolete Attribute\ObsoleteAttributeTest.cs" />
+    <Compile Include="14 - Stacktrace Exception\Entities\ExceptionClass.cs" />
+    <Compile Include="14 - Stacktrace Exception\StacktraceExceptionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
