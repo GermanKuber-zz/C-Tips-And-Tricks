@@ -54,6 +54,7 @@
     <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributeDemo.cs" />
     <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributesClass.cs" />
     <Compile Include="7 - Compilation Conditional\CompilationConditionalTest.cs" />
+    <Compile Include="8 - Tuplas\TuplesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
