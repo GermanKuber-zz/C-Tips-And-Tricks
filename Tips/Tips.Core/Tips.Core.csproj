@@ -41,21 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1 - Debugger Display Values\DebuggerDisplayValuesTest.cs" />
-    <Compile Include="1 - Debugger Display Values\Entities\PersonWithDisplayValues.cs" />
-    <Compile Include="1 - Debugger Display Values\Entities\PersonWitOuthDisplayValues.cs" />
-    <Compile Include="2 - Debugger Browseable State\DebuggerBrowseableTest.cs" />
-    <Compile Include="2 - Debugger Browseable State\Entities\PersonWithDebuggerBrowseable.cs" />
-    <Compile Include="2 - Debugger Browseable State\Entities\PersonWithOutDebuggerBrowseable.cs" />
-    <Compile Include="3 - Null Coalescing Operator\DebuggerBrowseableTest.cs" />
-    <Compile Include="6 - String Null Empty\StringNullEmptyTest.cs" />
-    <Compile Include="5 - ChangeType\ChangeTypeTest.cs" />
-    <Compile Include="4 - CallerInfo Attributes\DebuggerBrowseableTest.cs" />
-    <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributeDemo.cs" />
-    <Compile Include="4 - CallerInfo Attributes\Entities\CallerInfoAttributesClass.cs" />
-    <Compile Include="7 - Compilation Conditional\CompilationConditionalTest.cs" />
-    <Compile Include="8 - Tuplas\TuplesTest.cs" />
-    <Compile Include="9 - Object Reference Comparation\ObjectReferenceComparation.cs" />
+    <Compile Include="01 - Debugger Display Values\DebuggerDisplayValuesTest.cs" />
+    <Compile Include="01 - Debugger Display Values\Entities\PersonWithDisplayValues.cs" />
+    <Compile Include="01 - Debugger Display Values\Entities\PersonWitOuthDisplayValues.cs" />
+    <Compile Include="02 - Debugger Browseable State\DebuggerBrowseableTest.cs" />
+    <Compile Include="02 - Debugger Browseable State\Entities\PersonWithDebuggerBrowseable.cs" />
+    <Compile Include="02 - Debugger Browseable State\Entities\PersonWithOutDebuggerBrowseable.cs" />
+    <Compile Include="03 - Null Coalescing Operator\DebuggerBrowseableTest.cs" />
+    <Compile Include="06 - String Null Empty\StringNullEmptyTest.cs" />
+    <Compile Include="05 - ChangeType\ChangeTypeTest.cs" />
+    <Compile Include="04 - CallerInfo Attributes\DebuggerBrowseableTest.cs" />
+    <Compile Include="04 - CallerInfo Attributes\Entities\CallerInfoAttributeDemo.cs" />
+    <Compile Include="04 - CallerInfo Attributes\Entities\CallerInfoAttributesClass.cs" />
+    <Compile Include="07 - Compilation Conditional\CompilationConditionalTest.cs" />
+    <Compile Include="08 - Tuplas\TuplesTest.cs" />
+    <Compile Include="09 - Object Reference Comparation\ObjectReferenceComparation.cs" />
+    <Compile Include="10 - Flags Enum\FlashEnumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
