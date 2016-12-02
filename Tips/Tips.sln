@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tips", "Tips.Core\Tips.csproj", "{F52189A7-CD21-41B6-A5E3-17C0DD45E043}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tips", "Tips\Tips.csproj", "{F52189A7-CD21-41B6-A5E3-17C0DD45E043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
