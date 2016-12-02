@@ -58,6 +58,7 @@
     <Compile Include="09 - Object Reference Comparation\ObjectReferenceComparation.cs" />
     <Compile Include="11 - Three Part Numeric Format\ThreePartNumericFormatTest.cs" />
     <Compile Include="10 - Flags Enum\FlashEnumTest.cs" />
+    <Compile Include="13 - Linq Enum List\LinqEnumListTest.cs" />
     <Compile Include="12 - Obsolete Attribute\ObsoleteAttributeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

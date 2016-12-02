@@ -12,9 +12,9 @@ namespace Tips.Core
         {
 
 
-            //var class1 = new UseAtTheClassLevel();
+            //var clas1 = new UseAtTheClassLevel();
 
-            //var class2 = new UseAtTheClassLevelWithMessage();
+            //var clas2 = new UseAtTheClassLevelWithMessage();
 
             //var a = new UseOnIndividualMembers();
             //a.Name = "Sarah";
