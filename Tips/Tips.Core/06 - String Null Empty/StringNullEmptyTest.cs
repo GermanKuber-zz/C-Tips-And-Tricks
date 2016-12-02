@@ -13,7 +13,7 @@ namespace Tips.Core
         {
             var input = "";
 
-            bool isNullOrEmpty;
+            bool isNullOrEmpty = false;
 
             if (input == null || input == "")
             {
@@ -23,6 +23,7 @@ namespace Tips.Core
             {
                 isNullOrEmpty = false;
             }
+            var other = isNullOrEmpty;
 
         }
         [TestMethod]
@@ -40,7 +41,7 @@ namespace Tips.Core
             {
                 isNullOrEmpty = false;
             }
-
+            var other = isNullOrEmpty;
         }
         [TestMethod]
         public void IsNullTest3()
@@ -57,7 +58,7 @@ namespace Tips.Core
             {
                 isNullOrEmpty = false;
             }
-
+            var other = isNullOrEmpty;
         }
 
 

@@ -19,7 +19,8 @@ namespace Tips.Core
             text = "Release";
 #else
             text = "Other";
-#endif  
+#endif
+            var other = text;
 
         }
         [TestMethod]
