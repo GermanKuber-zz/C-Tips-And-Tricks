@@ -33,8 +33,6 @@ namespace Tips
         }
 
 
-
-
         [TestMethod]
         public void SkipRemainingLoop()
         {

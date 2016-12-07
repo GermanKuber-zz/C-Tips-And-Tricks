@@ -58,13 +58,14 @@
     <Compile Include="09 - Object Reference Comparation\ObjectReferenceComparation.cs" />
     <Compile Include="11 - Three Part Numeric Format\ThreePartNumericFormatTest.cs" />
     <Compile Include="10 - Flags Enum\FlashEnumTest.cs" />
-    <Compile Include="13 - Linq Enum List\LinqEnumListTest.cs" />
+    <Compile Include="12 - Obsolete Attribute\13 - Linq Enum List\LinqEnumListTest.cs" />
     <Compile Include="12 - Obsolete Attribute\ObsoleteAttributeTest.cs" />
     <Compile Include="14 - Stacktrace Exception\Entities\ExceptionClass.cs" />
     <Compile Include="14 - Stacktrace Exception\StacktraceExceptionTest.cs" />
     <Compile Include="15 - As Or Cast\AsOrCastTest.cs" />
     <Compile Include="15 - As Or Cast\Entities\Person.cs" />
     <Compile Include="16 - Break And Continue\BreakAndContinueTest.cs" />
+    <Compile Include="17 - Yield\YieldTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
