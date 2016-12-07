@@ -62,6 +62,9 @@
     <Compile Include="12 - Obsolete Attribute\ObsoleteAttributeTest.cs" />
     <Compile Include="14 - Stacktrace Exception\Entities\ExceptionClass.cs" />
     <Compile Include="14 - Stacktrace Exception\StacktraceExceptionTest.cs" />
+    <Compile Include="15 - As Or Cast\AsOrCastTest.cs" />
+    <Compile Include="15 - As Or Cast\Entities\Person.cs" />
+    <Compile Include="16 - Break And Continue\BreakAndContinueTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
