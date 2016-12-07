@@ -66,6 +66,9 @@
     <Compile Include="15 - As Or Cast\Entities\Person.cs" />
     <Compile Include="16 - Break And Continue\BreakAndContinueTest.cs" />
     <Compile Include="17 - Yield\YieldTest.cs" />
+    <Compile Include="18 - Conditional Attribute\ConditionalAttributeTest.cs" />
+    <Compile Include="18 - Conditional Attribute\Entities\FakeLogger.cs" />
+    <Compile Include="19 - Params\ParamsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
