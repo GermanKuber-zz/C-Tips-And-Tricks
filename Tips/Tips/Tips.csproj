@@ -84,6 +84,13 @@
     <Compile Include="22 - Struct Equals Performance\Entities\WithRefNoOverride.cs" />
     <Compile Include="22 - Struct Equals Performance\Entities\WithRefWithOverride.cs" />
     <Compile Include="22 - Struct Equals Performance\StructEqualsPerformanceTest.cs" />
+    <Compile Include="23 - Integer Number Sequence Generation\IntegerNumberSequenceGenerationTest.cs" />
+    <Compile Include="24 - Merging IEnumberable Sequences\MergingIEnumberableSequencesTest.cs" />
+    <Compile Include="26 - Aggregate\CustomAggregateTest.cs" />
+    <Compile Include="25 - Union Linq\UnionLinqTest.cs" />
+    <Compile Include="27 - Hiding Interface Implementations\Entities\ISomeInterface.cs" />
+    <Compile Include="27 - Hiding Interface Implementations\Entities\SomeClass.cs" />
+    <Compile Include="27 - Hiding Interface Implementations\HidingInterfaceImplementationsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
