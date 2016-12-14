@@ -4,6 +4,7 @@ namespace Tips.Entities
 {
     public class Thing
     {
+        //Enable Just My Code
         private string _name;
 
         public string Name
