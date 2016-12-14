@@ -4,10 +4,19 @@ namespace Tips.Entities
 {
     public class Thing
     {
+        private string _name;
+
         public string Name
         {
             [DebuggerStepThrough]
-            get; set;
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
         }
 
         [DebuggerStepThrough]
