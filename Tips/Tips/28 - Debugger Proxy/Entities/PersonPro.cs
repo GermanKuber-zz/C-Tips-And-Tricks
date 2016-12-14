@@ -1,45 +1,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tips.Entities;
 
-namespace Tips
+namespace Tips.Entities
 {
-    [TestClass]
-    public class HidingInterfaceImplementations
-    {
-
-        [TestMethod]
-        public void Example()
-        {
-            var byClass = new SomeClass();
-
-            byClass.MethodA();
-            // byClass.MethodB();    // Error
-
-
-            var byInterface = (ISomeInterface)byClass;
-
-            byInterface.MethodA();
-            byInterface.MethodB();
-        }
-    }
-
-    [TestClass]
-    public class DebuggerProxy
-    {
-        [TestMethod]
-        public void Example()
-        {
-            var p = new PersonPro("Germán") { Age = 33 };
-
-
-            p.FavouriteColors.Add(2, "Rojo");
-            p.FavouriteColors.Add(1, "Verde");
-            p.FavouriteColors.Add(3, "Amarillo");
-        }
-    }
     [DebuggerTypeProxy(typeof(PersonDebugProxy))]
     public class PersonPro
     {

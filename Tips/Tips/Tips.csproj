@@ -90,7 +90,9 @@
     <Compile Include="25 - Union Linq\UnionLinqTest.cs" />
     <Compile Include="27 - Hiding Interface Implementations\Entities\ISomeInterface.cs" />
     <Compile Include="27 - Hiding Interface Implementations\Entities\SomeClass.cs" />
-    <Compile Include="27 - Hiding Interface Implementations\HidingInterfaceImplementationsTest.cs" />
+    <Compile Include="27 - Hiding Interface Implementations\HidingInterfaceImplementations.cs" />
+    <Compile Include="28 - Debugger Proxy\DebuggerProxyTest.cs" />
+    <Compile Include="28 - Debugger Proxy\Entities\PersonPro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

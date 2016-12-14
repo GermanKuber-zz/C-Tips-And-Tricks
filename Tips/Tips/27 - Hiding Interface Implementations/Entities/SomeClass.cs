@@ -1,4 +1,4 @@
-namespace Tips
+namespace Tips.Entities
 {
     class SomeClass : ISomeInterface
     {
