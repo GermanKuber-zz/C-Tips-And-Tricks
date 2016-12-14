@@ -93,6 +93,9 @@
     <Compile Include="27 - Hiding Interface Implementations\HidingInterfaceImplementations.cs" />
     <Compile Include="28 - Debugger Proxy\DebuggerProxyTest.cs" />
     <Compile Include="28 - Debugger Proxy\Entities\PersonPro.cs" />
+    <Compile Include="29 - Lazy Initialization\Entities\ExceptionReport.cs" />
+    <Compile Include="29 - Lazy Initialization\LazyInitializationTest.cs" />
+    <Compile Include="29 - Lazy Initialization\Entities\Report.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
