@@ -79,6 +79,11 @@
     <Compile Include="21 - Constraining Generics\Entities\ConstrainedByInterface.cs" />
     <Compile Include="21 - Constraining Generics\Entities\ConstrainedByReferenceType.cs" />
     <Compile Include="21 - Constraining Generics\Entities\ConstrainedByValueType.cs" />
+    <Compile Include="22 - Struct Equals Performance\Entities\NoRefNoOverride.cs" />
+    <Compile Include="22 - Struct Equals Performance\Entities\NoRefWithOverride.cs" />
+    <Compile Include="22 - Struct Equals Performance\Entities\WithRefNoOverride.cs" />
+    <Compile Include="22 - Struct Equals Performance\Entities\WithRefWithOverride.cs" />
+    <Compile Include="22 - Struct Equals Performance\StructEqualsPerformanceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
