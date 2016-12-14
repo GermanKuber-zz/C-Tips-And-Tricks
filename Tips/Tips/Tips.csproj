@@ -72,6 +72,13 @@
     <Compile Include="20 - Implicit Explicit\Entities\Digit.cs" />
     <Compile Include="20 - Implicit Explicit\ImplicitExplicitTest.cs" />
     <Compile Include="19 - Params\ParamsTest.cs" />
+    <Compile Include="21 - Constraining Generics\ConstrainingGenericsTest.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByBase.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByCombinations.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByCtor.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByInterface.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByReferenceType.cs" />
+    <Compile Include="21 - Constraining Generics\Entities\ConstrainedByValueType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
