@@ -68,6 +68,9 @@
     <Compile Include="17 - Yield\YieldTest.cs" />
     <Compile Include="18 - Conditional Attribute\ConditionalAttributeTest.cs" />
     <Compile Include="18 - Conditional Attribute\Entities\FakeLogger.cs" />
+    <Compile Include="20 - Implicit Explicit\Entities\Celsius.cs" />
+    <Compile Include="20 - Implicit Explicit\Entities\Digit.cs" />
+    <Compile Include="20 - Implicit Explicit\ImplicitExplicitTest.cs" />
     <Compile Include="19 - Params\ParamsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
