@@ -119,7 +119,7 @@ namespace Tips
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                Debug.WriteLine(ex.InnerException);
             }
 
             try
@@ -128,7 +128,7 @@ namespace Tips
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                Debug.WriteLine(ex.InnerException);
             }
         }
 
@@ -146,7 +146,7 @@ namespace Tips
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                Debug.WriteLine(ex.Message);
             }
 
             try
@@ -155,7 +155,7 @@ namespace Tips
             }
             catch (Exception ex)
             {
-                Debug.WriteLine(ex);
+                Debug.WriteLine(ex.Message);
             }
 
         }

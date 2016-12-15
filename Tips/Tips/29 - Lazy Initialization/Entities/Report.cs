@@ -12,7 +12,7 @@ namespace Tips.Entities
             ReportName = "Default";
 
             // Simulate resource intensive object creation
-            Thread.Sleep(1000);
+            Thread.Sleep(3000);
         }
 
         public Report(string reportName)

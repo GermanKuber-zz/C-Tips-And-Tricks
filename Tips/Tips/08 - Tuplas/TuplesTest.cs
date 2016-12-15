@@ -17,12 +17,12 @@ namespace Tips
 
             var tupleTwoElement = new Tuple<int, string>(1, "hello");
 
-            var tupleFigeElement =
+            var tupleFiveElement =
                 new Tuple<int, int, int, int, int>(1, 2, 3, 4, 5);
 
             var tupleSevenElement =
                 new Tuple<int, int, int, int, int, int, Tuple<string>>(1, 2, 3, 4, 5, 6,
-                                                                                                new Tuple<string>("hello"));
+                                                                                        new Tuple<string>("hello"));
 
 
             // Static 
@@ -43,7 +43,7 @@ namespace Tips
             string lastName = t.Item3;
 
 
-            //t.Item1 = 99;    immutable
+            //t.Item1 = 99;    //immutable
         }
 
 
@@ -104,9 +104,9 @@ namespace Tips
             {
                 Debug.WriteLine(item);
             }
+            var t5 = Tuple.Create(1, "z");
 
-
-
+            d.Add(t5, "tTuple 5");
         }
     }
 }

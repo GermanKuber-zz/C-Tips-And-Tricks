@@ -6,9 +6,9 @@
         public int Age { get; set; }
         public string Information { get; set; }
 
-        //public override string ToString()
-        //{
-        //    return "Override ToString Method";
-        //}
+        public override string ToString()
+        {
+            return "Override ToString Method";
+        }
     }
 }
